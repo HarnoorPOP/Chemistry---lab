@@ -15,15 +15,7 @@ buildscript {
     }
 }
 
-apply from: "variables.gradle"
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
+// apply from: new File('capacitor-cordova-android-plugins/cordova.variables.gradle')
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
