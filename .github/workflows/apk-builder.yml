@@ -33,9 +33,8 @@ jobs:
       - name: Build Web App
         run: npm run build
 
-      - name: Copy Web Assets to Android
-        run: npx cap sync android
-
+      - - name: Copy Web Assets to Android
+  run: npx cap copy android
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
