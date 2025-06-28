@@ -1,0 +1,14 @@
+{
+  "appId": "com.code.studio.chemistrylab",
+  "appName": "Code Studio - Chemistry Lab",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.ysa244.chemistrylab',
+  appName: 'Chemistry Lab',
+  webDir: 'build'
+};
+
+export default config;
